@@ -1,59 +1,29 @@
-# HealthChallenge
+#Health Challenge Tracker
+The Health Challenge Tracker is a web application built using Angular 14+ that allows users to log their workout activities, track progress, and visualize workout data. Users can add workout activities, filter the list of workouts based on workout types, search by name, and view workout progress through charts.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+##Features
+Add Workouts: Users can log their workout activities by specifying their name, the type of workout (e.g., Running, Cycling, Swimming, Yoga), and the duration in minutes.
+Workout List: Displays a table of all users with their workout details, including the number of workouts and total workout minutes.
+Search and Filter: Users can search for workouts by name or filter them by workout type (e.g., Running, Cycling, Swimming, Yoga).
+Workout Progress Charts: Displays a bar graph showing workout progress for each user, based on workout categories (e.g., Running, Cycling).
+LocalStorage Integration: User data is stored in the browser’s LocalStorage for persistence across sessions.
 
-## Development server
+##Technologies Used
+Frontend: Angular 14+, HTML, CSS (Tailwind CSS)
+Charting: Chart.js for visualizing workout progress
+Data Storage: LocalStorage for saving user data
+Prerequisites
+Node.js (version 14 or above)
+Angular CLI (installed globally)
+Installation
+##Clone the repository:
+git clone https://github.com/VinayKumarPolepelly/health-chalenge-fyle.git
+cd health-chalenge-fyle
 
-To start a local development server, run:
+##Install the dependencies:
+npm install
 
-```bash
+##Running the Application
+To run the application locally, use the following command:
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Open a browser and go to http://localhost:4200 to view the app.
