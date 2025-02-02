@@ -28,3 +28,6 @@ To run the application locally, use the following command:
 ng serve
 
 Open a browser and go to http://localhost:4200 to view the app.
+
+## Deployed Link Below
+https://vinay-health-challenge-m85pefy2b-vinay-kumars-projects-0b7ce8a3.vercel.app/
